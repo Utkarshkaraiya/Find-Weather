@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+   
+    var typed = new Typed('.typed', {
+        strings: ['Hello,', ' You Can Find Some Weather Info!!'],
+        smartBackspace: true ,
+        loop: true,
+        typeSpeed: 10,
+        backSpeed: 10,
+      });
+
 $("#search").on("change",function(e){
 
    var cityname=e.target.value  //let only inside the function
